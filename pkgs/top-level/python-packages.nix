@@ -5386,6 +5386,8 @@ in {
 
   pyspark = callPackage ../development/python-modules/pyspark { };
 
+  python_toolbox = callPackage ../development/python-modules/python_toolbox { };
+
   pysensors = callPackage ../development/python-modules/pysensors { };
 
   sseclient = callPackage ../development/python-modules/sseclient { };
